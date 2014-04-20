@@ -1,7 +1,5 @@
-Connverter
-==========
+#Converter
 
-Functions
-_________
+##Functions
 
-This little programm can convert Numbers in binary, decimal and hexadecimal format into each other. It is a command line tool without GUI.
+This program converts numbers in binary, decimal and hexadecimal format into each other. It is a command line tool without GUI.
