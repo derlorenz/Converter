@@ -1,0 +1,11 @@
+.SUFFIXES: .java .class
+
+.java.class:
+	javac $<
+
+CLASSES = dec.class bin.class hex.class Converter.class
+
+all: $(CLASSES)
+
+clean:
+	/bin/rm $(CLASSES)
