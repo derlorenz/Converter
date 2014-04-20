@@ -86,4 +86,10 @@
 	</target>
 	
 	<target name="main" depends="clean,run"/>
+	
+	<target name="install" depends="jar">
+		<copy file="build/jar/converter.jar" todir="/bin"/>
+		<copy file="converter" todir="/bin"/>
+		<chmod file="/bin/converter" perm="+x"/>
+	</target>
 </project>
